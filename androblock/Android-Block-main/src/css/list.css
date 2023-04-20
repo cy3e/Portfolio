@@ -1,0 +1,29 @@
+.device-form{
+    height: 500px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+
+.card-device{
+    background-color: #07152900;
+    color: #ffff;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#listcontainer{
+    width: 100%;
+}
+
+table{
+    width: 100%;
+}
+
+tr{
+    width: 100%;
+    text-align: center;
+
+}
+
+

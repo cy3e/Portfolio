@@ -1,0 +1,125 @@
+:root{
+	--white-text:rgb(211, 211, 211);
+	--background:#ffffff;
+	--black-text:rgb(68, 66, 66)	
+	--prueba: (180deg,#21c8f6,#637bff);
+}
+
+
+.background1-left-column{
+	background: linear-gradient(180deg,#0a7fa0,#1a38e4);
+}
+
+.background2-left-column{
+	background: linear-gradient(180deg ,#6edcc4,#1aab8b);
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	box-sizing: border-box;
+	border: none;
+}
+
+
+body {
+	font-family: Arial, Helvetica, sans-serif;	
+}
+
+.tool-container{
+	display: flex;
+	justify-content: center;
+	height: 55vh;
+    align-items: center;
+}
+
+.tool-card {
+	background-color:var(--white-text);
+	border-radius: 1rem;
+	box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
+	display: flex;	
+	margin: 1.5rem;
+	overflow: hidden;
+	width: 48rem;
+	height: 28rem;
+}
+
+.tool-card h6 {
+	letter-spacing: .0rem;
+    font-size: 15px;
+	text-transform: uppercase;
+}
+
+.tool-card  h3 {
+	letter-spacing: .0rem;
+	margin: 12rem 0;
+	color: var(black-text);
+}
+
+.left-column {	
+	color: var(--white-text);
+	padding: 2rem;
+	max-width: 14rem;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-column h2{
+	color: var(--white-text);
+}
+
+.left-column i {
+	font-size: 5rem
+}
+
+.right-column {
+	padding: 65px;
+	width: 10%;
+	display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+	
+}
+
+.button {
+	border-radius: 1rem;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+	color: var(--white-text);
+	font-size: 1.2rem;
+	padding: .5rem 10rem;
+	align-self: flex-end;
+}
+
+.button1 {
+	border-radius: 1rem;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+	color: var(--white-text);
+	font-size: 1.2rem;
+	padding: .5rem 9rem;
+	align-self: flex-end;
+}
+
+.button2 {
+	border-radius: 1rem;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+	color: var(--white-text);
+	font-size: 1.2rem;
+	padding: .5rem 10.6rem;
+	align-self: flex-end;
+}
+
+/*media queries*/
+
+@media (max-width: 1030px) {
+	.tool-container{
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		height:auto;
+	}
+  }
+

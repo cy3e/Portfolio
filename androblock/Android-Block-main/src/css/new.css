@@ -1,0 +1,88 @@
+*:first-letter {
+    text-transform: capitalize;
+}
+
+.roundBorder {
+    border-radius: 5px;
+}
+
+.list {
+    margin: 25px auto;
+    padding: 25px;
+    background-color: #ffff;
+    width: 100%;
+    max-width: 350px;
+}
+
+.newdevice {
+    margin: 20px 0;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: auto 35px auto;
+    grid-column-gap: 15px;
+}
+
+input {
+    border: none;
+    padding-left: 10px;
+    padding-top: 2px;
+    background-color: var(--diabled);
+}
+
+input:focus {
+    outline: none;
+}
+
+.addTaskButton,
+.orderButton {
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.addTaskButton {
+    height: 35px;
+    border-radius: 50%;
+    font-size: 18px;
+    background-color: var(--diabled);
+}
+
+.orderButton {
+    background-color: var(--secondary);
+    color: var(--light);
+}
+
+.task {
+    background-color: var(--primary);
+    padding: 15px;
+    margin-top: 15px;
+    color: var(--light);
+    cursor: pointer;
+}
+
+.done {
+    background-color: var(--diabled);
+    text-decoration: line-through;
+    color: var(--dark);
+}
+
+/****************/
+
+.container-input{
+    width: 100%;
+    height: 60px;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 2px solid #123668;
+}
+
+
+.btn-todo{
+    transition: .2s ease-out all;
+    height: 40px;
+    width: 90px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+	background-color: #123668;
+    border-radius: .4rem;
+    color: #ffff
+}
